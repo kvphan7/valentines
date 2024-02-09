@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +20,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* or any other appropriate alignment */
+  margin-right: 60px; /* Adjust the margin to move the buttons horizontally */
 }
 
 @keyframes App-logo-spin {
